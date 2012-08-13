@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9345082115D65FA9000980E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9345082015D65FA9000980E2 /* Cocoa.framework */; };
+		9345082B15D65FA9000980E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9345082915D65FA9000980E2 /* InfoPlist.strings */; };
+		9345082D15D65FA9000980E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345082C15D65FA9000980E2 /* main.m */; };
+		9345083115D65FA9000980E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9345082F15D65FA9000980E2 /* Credits.rtf */; };
+		9345083415D65FA9000980E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345083315D65FA9000980E2 /* AppDelegate.m */; };
+		9345083715D65FA9000980E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9345083515D65FA9000980E2 /* MainMenu.xib */; };
+		9345083F15D65FAA000980E2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9345083E15D65FAA000980E2 /* SenTestingKit.framework */; };
+		9345084015D65FAA000980E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9345082015D65FA9000980E2 /* Cocoa.framework */; };
+		9345084815D65FAA000980E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9345084615D65FAA000980E2 /* InfoPlist.strings */; };
+		9345084B15D65FAA000980E2 /* Checker_File_FormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345084A15D65FAA000980E2 /* Checker_File_FormatterTests.m */; };
+		9345085615D66043000980E2 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345085515D66043000980E2 /* AppController.m */; };
+		9345085915D662B4000980E2 /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345085815D662B4000980E2 /* Formatter.m */; };
+		9345085D15D697FD000980E2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345085C15D697FD000980E2 /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9345084115D65FAA000980E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9345081315D65FA9000980E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9345081B15D65FA9000980E2;
+			remoteInfo = "Checker File Formatter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9345081C15D65FA9000980E2 /* Checker File Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Checker File Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9345082015D65FA9000980E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9345082315D65FA9000980E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9345082415D65FA9000980E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9345082515D65FA9000980E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9345082815D65FA9000980E2 /* Checker File Formatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Checker File Formatter-Info.plist"; sourceTree = "<group>"; };
+		9345082A15D65FA9000980E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9345082C15D65FA9000980E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9345082E15D65FA9000980E2 /* Checker File Formatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Checker File Formatter-Prefix.pch"; sourceTree = "<group>"; };
+		9345083015D65FA9000980E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9345083215D65FA9000980E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9345083315D65FA9000980E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9345083615D65FA9000980E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9345083D15D65FAA000980E2 /* Checker File FormatterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Checker File FormatterTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9345083E15D65FAA000980E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9345084515D65FAA000980E2 /* Checker File FormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Checker File FormatterTests-Info.plist"; sourceTree = "<group>"; };
+		9345084715D65FAA000980E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9345084915D65FAA000980E2 /* Checker_File_FormatterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Checker_File_FormatterTests.h; sourceTree = "<group>"; };
+		9345084A15D65FAA000980E2 /* Checker_File_FormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Checker_File_FormatterTests.m; sourceTree = "<group>"; };
+		9345085415D66043000980E2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9345085515D66043000980E2 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		9345085715D662B4000980E2 /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
+		9345085815D662B4000980E2 /* Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formatter.m; sourceTree = "<group>"; };
+		9345085B15D697FD000980E2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		9345085C15D697FD000980E2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = ../Constants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9345081915D65FA9000980E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345082115D65FA9000980E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9345083915D65FAA000980E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345083F15D65FAA000980E2 /* SenTestingKit.framework in Frameworks */,
+				9345084015D65FAA000980E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9345081115D65FA9000980E2 = {
+			isa = PBXGroup;
+			children = (
+				9345082615D65FA9000980E2 /* Checker File Formatter */,
+				9345084315D65FAA000980E2 /* Checker File FormatterTests */,
+				9345081F15D65FA9000980E2 /* Frameworks */,
+				9345081D15D65FA9000980E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9345081D15D65FA9000980E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9345081C15D65FA9000980E2 /* Checker File Formatter.app */,
+				9345083D15D65FAA000980E2 /* Checker File FormatterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9345081F15D65FA9000980E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9345082015D65FA9000980E2 /* Cocoa.framework */,
+				9345083E15D65FAA000980E2 /* SenTestingKit.framework */,
+				9345082215D65FA9000980E2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9345082215D65FA9000980E2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9345082315D65FA9000980E2 /* AppKit.framework */,
+				9345082415D65FA9000980E2 /* CoreData.framework */,
+				9345082515D65FA9000980E2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9345082615D65FA9000980E2 /* Checker File Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				9345083215D65FA9000980E2 /* AppDelegate.h */,
+				9345083315D65FA9000980E2 /* AppDelegate.m */,
+				9345083515D65FA9000980E2 /* MainMenu.xib */,
+				9345085415D66043000980E2 /* AppController.h */,
+				9345085B15D697FD000980E2 /* Constants.h */,
+				9345085C15D697FD000980E2 /* Constants.m */,
+				9345085515D66043000980E2 /* AppController.m */,
+				9345082715D65FA9000980E2 /* Supporting Files */,
+			);
+			path = "Checker File Formatter";
+			sourceTree = "<group>";
+		};
+		9345082715D65FA9000980E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9345082815D65FA9000980E2 /* Checker File Formatter-Info.plist */,
+				9345082915D65FA9000980E2 /* InfoPlist.strings */,
+				9345082C15D65FA9000980E2 /* main.m */,
+				9345085715D662B4000980E2 /* Formatter.h */,
+				9345085815D662B4000980E2 /* Formatter.m */,
+				9345082E15D65FA9000980E2 /* Checker File Formatter-Prefix.pch */,
+				9345082F15D65FA9000980E2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9345084315D65FAA000980E2 /* Checker File FormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9345084915D65FAA000980E2 /* Checker_File_FormatterTests.h */,
+				9345084A15D65FAA000980E2 /* Checker_File_FormatterTests.m */,
+				9345084415D65FAA000980E2 /* Supporting Files */,
+			);
+			path = "Checker File FormatterTests";
+			sourceTree = "<group>";
+		};
+		9345084415D65FAA000980E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9345084515D65FAA000980E2 /* Checker File FormatterTests-Info.plist */,
+				9345084615D65FAA000980E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9345081B15D65FA9000980E2 /* Checker File Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9345084E15D65FAA000980E2 /* Build configuration list for PBXNativeTarget "Checker File Formatter" */;
+			buildPhases = (
+				9345081815D65FA9000980E2 /* Sources */,
+				9345081915D65FA9000980E2 /* Frameworks */,
+				9345081A15D65FA9000980E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Checker File Formatter";
+			productName = "Checker File Formatter";
+			productReference = 9345081C15D65FA9000980E2 /* Checker File Formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9345083C15D65FAA000980E2 /* Checker File FormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9345085115D65FAA000980E2 /* Build configuration list for PBXNativeTarget "Checker File FormatterTests" */;
+			buildPhases = (
+				9345083815D65FAA000980E2 /* Sources */,
+				9345083915D65FAA000980E2 /* Frameworks */,
+				9345083A15D65FAA000980E2 /* Resources */,
+				9345083B15D65FAA000980E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9345084215D65FAA000980E2 /* PBXTargetDependency */,
+			);
+			name = "Checker File FormatterTests";
+			productName = "Checker File FormatterTests";
+			productReference = 9345083D15D65FAA000980E2 /* Checker File FormatterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9345081315D65FA9000980E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = BEL;
+			};
+			buildConfigurationList = 9345081615D65FA9000980E2 /* Build configuration list for PBXProject "Checker File Formatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9345081115D65FA9000980E2;
+			productRefGroup = 9345081D15D65FA9000980E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9345081B15D65FA9000980E2 /* Checker File Formatter */,
+				9345083C15D65FAA000980E2 /* Checker File FormatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9345081A15D65FA9000980E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345082B15D65FA9000980E2 /* InfoPlist.strings in Resources */,
+				9345083115D65FA9000980E2 /* Credits.rtf in Resources */,
+				9345083715D65FA9000980E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9345083A15D65FAA000980E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345084815D65FAA000980E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9345083B15D65FAA000980E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9345081815D65FA9000980E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345082D15D65FA9000980E2 /* main.m in Sources */,
+				9345083415D65FA9000980E2 /* AppDelegate.m in Sources */,
+				9345085615D66043000980E2 /* AppController.m in Sources */,
+				9345085915D662B4000980E2 /* Formatter.m in Sources */,
+				9345085D15D697FD000980E2 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9345083815D65FAA000980E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345084B15D65FAA000980E2 /* Checker_File_FormatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9345084215D65FAA000980E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9345081B15D65FA9000980E2 /* Checker File Formatter */;
+			targetProxy = 9345084115D65FAA000980E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9345082915D65FA9000980E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345082A15D65FA9000980E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9345082F15D65FA9000980E2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345083015D65FA9000980E2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9345083515D65FA9000980E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345083615D65FA9000980E2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9345084615D65FAA000980E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345084715D65FAA000980E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9345084C15D65FAA000980E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9345084D15D65FAA000980E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9345084F15D65FAA000980E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checker File Formatter/Checker File Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Checker File Formatter/Checker File Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9345085015D65FAA000980E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checker File Formatter/Checker File Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Checker File Formatter/Checker File Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9345085215D65FAA000980E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checker File Formatter.app/Contents/MacOS/Checker File Formatter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checker File Formatter/Checker File Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Checker File FormatterTests/Checker File FormatterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9345085315D65FAA000980E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checker File Formatter.app/Contents/MacOS/Checker File Formatter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checker File Formatter/Checker File Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Checker File FormatterTests/Checker File FormatterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9345081615D65FA9000980E2 /* Build configuration list for PBXProject "Checker File Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345084C15D65FAA000980E2 /* Debug */,
+				9345084D15D65FAA000980E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9345084E15D65FAA000980E2 /* Build configuration list for PBXNativeTarget "Checker File Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345084F15D65FAA000980E2 /* Debug */,
+				9345085015D65FAA000980E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9345085115D65FAA000980E2 /* Build configuration list for PBXNativeTarget "Checker File FormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345085215D65FAA000980E2 /* Debug */,
+				9345085315D65FAA000980E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9345081315D65FA9000980E2 /* Project object */;
+}
